@@ -1,4 +1,5 @@
 import org.junit.After;
+import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
@@ -15,13 +16,14 @@ public class BasicTest {
 	}
 	@Test
 	public void runTest() {
-		
+		  
+	
 	}
 	@After
 	public void cleanUp() {
 		
 	}
-	@AfterTest 
+	@AfterClass 
 	public static void Stop(){
 		
 	}
